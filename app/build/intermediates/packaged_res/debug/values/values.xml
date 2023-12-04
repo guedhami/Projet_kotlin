@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="priority_array">
+        <item>None</item>
+        <item>Low</item>
+        <item><font fgcolor="#FF3B30">!! Urgency</font></item>
+    </string-array>
+    <color name="back_elevated">#FFFFFF</color>
+    <color name="back_primary">#F7F6F2</color>
+    <color name="back_secondary">#FFFFFF</color>
+    <color name="blue">#007AFF</color>
+    <color name="gray">#8E8E93</color>
+    <color name="gray_light">#D1D1D6</color>
+    <color name="green">#34C759</color>
+    <color name="label_disable">#26000000</color>
+    <color name="label_primary">#000000</color>
+    <color name="label_secondary">#99000000</color>
+    <color name="label_tertiary">#4D000000</color>
+    <color name="light_blue">#60007AFF</color>
+    <color name="overlay">#0F000000</color>
+    <color name="red">#FF3B30</color>
+    <color name="separator">#33000000</color>
+    <color name="switch_thumb">@color/back_secondary</color>
+    <color name="switch_track">@color/label_secondary</color>
+    <color name="transparent_red">#30FF3B30</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="primaryTextSize">18sp</dimen>
+    <dimen name="secondaryTextSize">16sp</dimen>
+    <dimen name="swipeButtonWidth">80dp</dimen>
+    <string name="add_new_task">New task</string>
+    <string name="add_task">Add task</string>
+    <string name="app_name">To Do</string>
+    <string name="deadline">Deadline is:</string>
+    <string name="delete">Delete</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_tasks">My tasks</string>
+    <string name="priority_label">Priority</string>
+    <string name="save">Save</string>
+    <string name="show_done_tasks">Show done tasks</string>
+    <string name="task_description_hint">What you need to do…</string>
+    <string name="task_info">Task info</string>
+    <string name="tasks_done">Tasks is done - %d</string>
+    <style name="DatePickerTheme.ButtonBarButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/blue</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="MyCardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialCardView.Cut</item>
+    </style>
+    <style name="MyDatePickerStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/blue</item>
+        <item name="color">@color/blue</item>
+        
+        <item name="colorControlActivated">@color/blue</item>
+        
+        
+        
+        
+        
+        <item name="android:windowBackground">@color/back_secondary</item>
+        
+        
+        
+        <item name="android:textColorSecondary">@color/gray</item>
+        
+        <item name="android:textColorPrimary">@color/label_primary</item>
+        
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+        <item name="android:buttonBarNegativeButtonStyle">
+            @style/DatePickerTheme.ButtonBarButtonStyle
+        </item>
+        <item name="android:buttonBarPositiveButtonStyle">
+            @style/DatePickerTheme.ButtonBarButtonStyle
+        </item>
+        <item name="android:editTextStyle">@style/date_text_appearance</item>
+    </style>
+    <style name="OutlinedRoundedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded
+        </item>
+    </style>
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">6dp</item>
+        <item name="cornerSizeTopLeft">6dp</item>
+        <item name="cornerSizeBottomRight">6dp</item>
+        <item name="cornerSizeBottomLeft">6dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="TextAppearance.App.CollapsingToolbar.Collapsed" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="TextAppearance.App.CollapsingToolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="Theme.ToDoList" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/back_primary</item>
+        <item name="colorPrimaryVariant">@color/back_elevated</item>
+        <item name="colorOnPrimary">@color/label_primary</item>
+        
+        <item name="colorSecondary">@color/back_secondary</item>
+        <item name="colorSecondaryVariant">@color/back_elevated</item>
+        <item name="colorOnSecondary">@color/label_secondary</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/Widget.App.ActionMode</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_close</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+
+        <item name="android:actionMenuTextColor">@color/blue</item>
+        <item name="android:textSize">@dimen/primaryTextSize</item>
+        <item name="switchStyle">@style/Widget.App.Switch</item>
+        <item name="android:colorControlActivated">@color/blue</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.App.DatePicker</item>
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
+       </style>
+    <style name="ThemeOverlay.App.DatePicker" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/label_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        
+        
+        
+        
+    </style>
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSurface">@color/switch_thumb</item>
+        <item name="colorOnSurface">@color/switch_track</item>
+    </style>
+    <style name="Widget.App.ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="titleTextStyle">?attr/textAppearanceHeadline6</item>
+        <item name="subtitleTextStyle">?attr/textAppearanceSubtitle1</item>
+        <item name="background">?attr/colorPrimary</item>
+    </style>
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+    <style name="date_text_appearance">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="spinnerItemStyle">
+
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+</resources>

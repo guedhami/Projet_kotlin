@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/color_checkbox_urgency_color.xml.flat",
+        "source": "com.example.todolist.app-main-56:/color/checkbox_urgency_color.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/layout_fragment_edit_item.xml.flat",
+        "source": "com.example.todolist.app-main-56:/layout/fragment_edit_item.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/drawable_ic_info.xml.flat",
+        "source": "com.example.todolist.app-main-56:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/drawable_ic_done.xml.flat",
+        "source": "com.example.todolist.app-main-56:/drawable/ic_done.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/color_delete_button_color.xml.flat",
+        "source": "com.example.todolist.app-main-56:/color/delete_button_color.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.todolist.app-pngs-49:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.todolist.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/layout_activity_main.xml.flat",
+        "source": "com.example.todolist.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/layout_fragment_task_list.xml.flat",
+        "source": "com.example.todolist.app-main-56:/layout/fragment_task_list.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/drawable_ic_trash.xml.flat",
+        "source": "com.example.todolist.app-main-56:/drawable/ic_trash.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/drawable_ic_add_task.xml.flat",
+        "source": "com.example.todolist.app-main-56:/drawable/ic_add_task.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/navigation_nav_graph.xml.flat",
+        "source": "com.example.todolist.app-main-56:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/xml_backup_rules.xml.flat",
+        "source": "com.example.todolist.app-main-56:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/drawable_ic_eye_off.xml.flat",
+        "source": "com.example.todolist.app-main-56:/drawable/ic_eye_off.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/menu_top_app_bar.xml.flat",
+        "source": "com.example.todolist.app-main-56:/menu/top_app_bar.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/menu_edit_task_menu.xml.flat",
+        "source": "com.example.todolist.app-main-56:/menu/edit_task_menu.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.todolist.app-main-56:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/layout_task_item.xml.flat",
+        "source": "com.example.todolist.app-main-56:/layout/task_item.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/color_checkbox_usual_color.xml.flat",
+        "source": "com.example.todolist.app-main-56:/color/checkbox_usual_color.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/drawable_ic_eye.xml.flat",
+        "source": "com.example.todolist.app-main-56:/drawable/ic_eye.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/drawable_ic_close.xml.flat",
+        "source": "com.example.todolist.app-main-56:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.example.todolist.app-merged_res-54:/xml_preference.xml.flat",
+        "source": "com.example.todolist.app-main-56:/xml/preference.xml"
+    }
+]

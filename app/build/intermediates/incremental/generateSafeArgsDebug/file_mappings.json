@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.example.todolist.ui.view.TaskListFragmentDirections","com.example.todolist.ui.view.TaskListFragmentArgs","com.example.todolist.ui.view.EditItemFragmentDirections","com.example.todolist.ui.view.EditItemFragmentArgs"]}]
